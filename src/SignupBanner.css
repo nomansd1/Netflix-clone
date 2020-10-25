@@ -1,0 +1,65 @@
+
+.banner {
+    background-image:linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0) ), linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0) ), linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) ), linear-gradient(to top, rgba(0,0,0,0.1), rgba(0,0,0,0.8) ) , url("https://assets.nflxext.com/ffe/siteui/vlv3/bcd713c9-291e-4186-a275-117b387eaaf2/eb57c9a2-2512-45fa-8f99-32e86fc34f5d/PK-en-20201019-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-size: cover;
+    width: 100%;
+    object-fit: contain;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    height: 130vh;
+
+}
+.signup__details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    max-width: 900px;
+    align-items: center;
+    background-color: transparent;
+    margin: 220px auto;
+}
+
+.signup__details > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.first__span {
+    color: lightgray;
+    font-size: 28px;
+}
+.second__span {
+    color: #d3d3d3;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.signup__form {
+    display: flex;
+    margin: 20px 0;
+}
+
+.signup__form > input {
+    height: 57px;
+    width:450px ;
+    padding-left: 10px;
+    border-radius: 2px;
+    font-size: 19px;
+}
+
+.signup__form > button {
+    background-color:#e50914;
+    color: white;
+    border: 2px solid #e50914;
+    font-size: 26px;
+    width: 300px;
+}
+
+.signup__form > button:focus ,  button:active{
+    border: 2px solid #e50914;
+}

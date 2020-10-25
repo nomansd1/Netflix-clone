@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'netflix-font';
+    src: local('netflix') , url(fonts/BebasNeue-Bold.ttf) format('truetype');
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 55px;
+    flex-direction: row;
+    background: transparent;
+    z-index: 100;
+}
+
+.header__left {
+    display: flex;
+}
+
+.header__left  > span {
+    color: #e50914;
+    font-family: netflix-font;
+    font-size: 25px;
+    font-weight: 950;
+    letter-spacing: 2px;
+}
+
+.header__right {
+    display: flex;
+    padding: 7px 10px;
+    align-items: center;
+}
+
+.header__right > button {
+    background-color: #e50914;
+    color: white;
+    height: 35px;
+    width: 85px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #e50914;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 100;
+}
